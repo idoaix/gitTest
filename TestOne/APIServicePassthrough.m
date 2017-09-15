@@ -12,6 +12,7 @@
 - (instancetype)initWithApiService:(id<APIServiceProtocol>)apiService {
     if (self = [super init]) {
         self.apiService = apiService;
+        NSLog(@"abc");
     }
     return self;
 }
